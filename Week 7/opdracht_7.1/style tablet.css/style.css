@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    background-color: #f87171; 
+    padding: 20px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.section {
+    padding: 60px 20px;
+}
+
+.section1 {
+    background-color: #ef4444; 
+}
+
+.section2 {
+    background-color: #3b82f6;
+}
+
+.section3 {
+    background-color: #1d4ed8; 
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
