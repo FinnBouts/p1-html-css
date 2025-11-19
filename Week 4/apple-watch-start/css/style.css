@@ -6,7 +6,13 @@ html {
 }
 
 
-/* Custom Font */
+/*custom font*/
+.product-info {
+border-radius:0px 0px 200px 0px;
+
+}
+
+
 @font-face {
   font-family: HelloHiFont;
   src: url(/fonts/ftltlt-webfont.woff);
@@ -14,15 +20,21 @@ html {
 
 @font-face {
   font-family: HelloHiFont2;
-  src: url(/fonts/ftltlt-webfont2.woff);
+  src: url(/fonts/ftltlt-webfont.woff2);
 }
 
 
 
 body {
+  background-image: url("/img/watch.png");
+  background-size: 500px;
   margin: 0;
   font-family: HelloHiFont, sans-serif;
  color: #111;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position-x: 1100px;
+ background-position-y: 220px;
 }
 
 
@@ -58,13 +70,13 @@ body {
 
 .deal-badge {
   position: absolute;
-  left: 830px;
-  top: 300px;
+  left: 775px;
+  top: 265px;
   background-color: #000;
   color: white;
   border-radius: 50%;
-  width: 160px;
-  height: 160px;
+  width: 150px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,13 +102,12 @@ align-content: center;
 
 /* Product info */
 .product-info {
-  max-width: 680px;
-  margin: 50px 200px;
-  padding: 40px;
+  max-width: 650px;
+  margin: 150Px 150px;
+  padding: 10px;
   background: #f5f5f5;
   background-color: #fff;
-  margin-top: 170px;
-
+  margin-top: 100px;
 }
 .product-info h2 {
   font-size: 36px;
@@ -117,6 +128,9 @@ align-content: center;
   background: black;
   color: white;
 }
-
-
-
+button{
+background-color: #000;
+color:#fff;
+padding: 15px 10px;
+border-radius: 10px;
+}

@@ -3,70 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hallo Hi - Internet, Bellen en Entertainment</title>
+    <title>Hallo Hi - Internet, Bellen, Mobiel en Entertainment</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header sectie -->
     <header>
-        <h1>Hallo Hi</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Internet + Bellen</a></li>
-                <li><a href="#">Mobiel</a></li>
-                <li><a href="#">Entertainment</a></li>
-                <li><a href="#">Service</a></li>
-            </ul>
+        <nav class="header-nav">
+            <a href="#">Internet + Bellen</a>
+            <a href="#">Mobiel</a>
+            <a href="#">Entertainment</a>
+            <a href="#">Service</a>
         </nav>
     </header>
 
-    <!-- Hoofdinhoud -->
-    <main>
-        <!-- Hero sectie -->
-        <section>
-            <h2>Hallo, Hi</h2>
-            <p>Ontdek onze voordelige pakketten voor internet, bellen en entertainment.</p>
-            <div class="button-group">
-                <button class="btn-purple">Ontdek meer</button>
-                <button class="btn-black">Bekijk deal</button>
+    <!-- Hero sectie -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-title">
+                Hallo,<span class="hi-badge">Hi</span>
             </div>
-        </section>
+            <div class="hero-sub">Internet + Bellen van Hallo Hi<br>Kies uit Sim Only of een telefoon met abonnement van HalloHi en ontvang tijdelijk € 145 voordeel.</div>
+            <div class="hero-buttons">
+                <button class="button button-black">Bekijk deal</button>
+                <button class="button button-purple">Ontdek meer</button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-visual-bg"></div>
+            <span class="hero-superdeal">SUPER DEAL</span>
+            <img src="colorPicker.jpg" alt="Telefoon aanbieding" style="position: absolute; top: 40px; right: 120px; width: 220px; z-index: 2; border-radius: 24px; box-shadow: 0 8px 32px rgba(0,0,0,0.18);">
+        </div>
+    </section>
 
-        <!-- Tweede sectie -->
-        <section>
-            <div class="text-content">
-                <h2>Het beste van Mobiel en TV</h2>
-                <p>Combineer je mobiele abonnement met entertainment en geniet van exclusieve voordelen.</p>
-                
-                <ul>
-                    <li>Onbeperkt bellen en sms'en</li>
-                    <li>Snelle 4G/5G internetverbinding</li>
-                    <li>Toegang tot alle populaire streamingdiensten</li>
-                    <li>Geen gedoe met aparte abonnementen</li>
-                </ul>
-                
-                <button class="btn-purple">Ontdek Mobiel en TV</button>
-            </div>
-            
-            <div class="image-content">
-                <img src="lander-1.jpg" alt="Mobiel en TV combinatie voordelen">
-            </div>
-        </section>
-    </main>
+    <!-- Tweede sectie: "Het beste van Mobiel en TV" -->
+    <section class="section-mobiel-tv">
+        <div class="section-mobiel-tv-content">
+            <h2>Het beste van Mobiel en TV.</h2>
+            <p>Geen aansluitkosten en volop extra voordelen.<br>Ontdek TV & Streaming op één plek. En switch gemakkelijk tussen je favoriete tv-zenders, streamingdiensten en huurfilms.</p>
+            <p>Stap je over? Geen enkel probleem. Gratis nummerbehoud.<br>Jij vraagt het aan, wij regelen de rest.</p>
+            <ul>
+                <li>Onbeperkt data</li>
+                <li>39,95€/mnd</li>
+                <li>Snelheid tot 1Gbit/s</li>
+                <li>Stel zelf je pakket samen</li>
+            </ul>
+            <button class="button button-mobiel-tv">Ontdek Mobiel en TV</button>
+        </div>
+        <div class="section-mobiel-tv-image">
+            <img src="image-main-01.png" alt="Mobiel en TV combinatie van Hallo Hi">
+        </div>
+    </section>
 
     <!-- Footer sectie -->
     <footer>
-        <div>
-            <div>
-                <a href="#">Over HalloHi</a>
-                <a href="#">Voorwaarden</a>
-                <a href="#">Privacy</a>
-            </div>
-            
-            <div>
-                <button>Download op Google Play</button>
-                <button>Download in de App Store</button>
-            </div>
+        <div class="footer-links">
+            <a href="#">Over HalloHi</a>
+            <a href="#">Voorwaarden</a>
+            <a href="#">Privacy</a>
+        </div>
+        <div class="footer-apps">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
         </div>
     </footer>
 </body>
